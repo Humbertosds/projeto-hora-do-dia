@@ -23,15 +23,17 @@ section {
     
     text-align: center;
     border-radius: 10px;
-    box-shadow: 1px 1px 30px black;
+    box-shadow: 1px 1px 15px black;
     padding: 20px;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 
 #msg {
     text-align: center;
+    
+    font-size: 1.3em;
 }
 
 #imgdia{
