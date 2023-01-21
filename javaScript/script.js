@@ -2,8 +2,8 @@ function carregar() {
 txt = document.getElementById('msg')
 foto = document.getElementById('imgdia')
 agora = new Date()
-//hora = agora.getHours()
-hora = 14
+hora = agora.getHours()
+
 txt.innerHTML = `Agora são ${hora} horas`
 
 if (hora >= 0 && hora <= 12){
